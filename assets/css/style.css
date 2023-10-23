@@ -1,0 +1,219 @@
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navlink {
+    color: #fff;
+}
+
+.txtnav {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.txtnav-black {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+.bg-banner {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
+.p-txt {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.txt {
+    color: #fec663;
+}
+
+@media (max-width: 768px) {
+    .txt {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-family: 'Maven Pro', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        color: #fff;
+        line-height: 2.5rem;
+    }
+}
+
+.bg-mora {
+    background-color: #695390;
+}
+
+.bg-grey {
+    background-color: #e9e8f2;
+}
+
+.imgtxt {
+    width: 95%;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+
+.v-line {
+    border-left: thick solid #fec663;
+    height: 30%;
+    left: 50%;
+    position: absolute;
+}
+
+.h-line {
+    border: 3.5px solid #fec663;
+    background-color: #fec663;
+    width: 85%;
+}
+
+.boton1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: #fff;
+    border-color: #fec663;
+    padding: 1.25rem 1.5rem;
+}
+
+:root {
+    --bs-border-color: #fec663;
+}
+
+.btn-outline-light {
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #fec663;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+.accordion {
+    --bs-accordion-active-color: #000;
+    --bs-accordion-active-bg: #fff;
+    --bs-accordion-border-width: 4px;
+    --bs-accordion-border-radius: 0.5rem;
+    --bs-accordion-inner-border-radius: calc(0.5rem - 1px);
+    --bs-border-color-translucent: #fff;
+
+}
+
+.cuadrotitulo {
+    height: 70px;
+    width: 25%;
+    background-color: #fec663;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .cuadrotitulo {
+        height: 70px;
+        width: 70%;
+        text-align: center;
+    }
+}
+
+
+
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+
+}
+
+.tit-instruct {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+.txt-instruct {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.tit-instruct-light {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.txt-instruct-light {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cuadrofooter {
+    background-color: #454275;
+}
+
+.textofooter {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+
+
+}
+
+.footer-bg {
+    background-color: #000000;
+}

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda escuela de computación cuántica</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--Style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-dark bg-black navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo-miro.png" alt="logo-miro"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end txtnav" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navlink" aria-current="page" href="#informacion">INFORMACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#temario">TEMARIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#instructores">INSTRUCTORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink" href="#charlas">CHARLAS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--banner-->
+
+    <div class="container-fluid text-center pt-3 bg-banner">
+        <img class="img-fluid" src="assets/img/banner.png" alt="Segunda escuela de computación cuántica">
+
+
+    </div>
+
+    <!--bloque1-->
+    <div class="container-fluid text-center p-5 bg-black">
+        <p class="p-3 mt-5">Curso introductorio a la computación cuántica en el cual se abarcarán algoritmos cuánticos
+            de búsqueda,
+            algoritmos variacionales y quantum machine learning.</p>
+        <p class="p-3 mb-5">Cada tema vendrá acompañado de un taller de programación con Qiskit - el lenguaje
+            desarrollado por IBM para
+            programar computadores cuánticos - donde veremos ejemplos y aplicaciones de estos algoritmos cuánticos.</p>
+    </div>
+
+    <!--bloque2-->
+    <div class="container-fluid bg-mora p-5">
+        <div class="imgtxt pt-5 pb-5">
+            <div class="row">
+                <div class="col-md"> <img class="img-fluid" src="assets/img/fecha.png" alt="del 9 al 13 de enero"></div>
+                <div class="col-md v-line d-none d-sm-block d-sm-none d-md-block"></div><!--linea desktop-->
+                <div
+                    class="col-md m-5 text-center h-line d-md-none d-lg-block d-lg-none d-xl-block d-xl-none d-xxl-none d-xxl-block">
+                </div><!--linea mobile-->
+                <div class="col-md">
+                    <p class="txt p-5">Para estudiantes de tercer año en adelante y egresados de carreras de física,
+                        ingeniería, química o matemáticas con conocimientos en programación. </p>
+                </div>
+            </div>
+            <div class="p-5"><!--botones-->
+                <div class="row ">
+                    <div class="col-md-6 p-3 text-center"><a href="#" target="_blank"
+                            class=" btn btn-outline-light btn-lg border border-3 mr-4 boton1">VER
+                            PROGRAMA</a>
+                    </div>
+                    <div class="col-md-6 p-3 text-center"><a href="#" target="_blank"
+                            class=" btn btn-outline-light btn-lg border border-3 mr-4 boton1">POSTULA
+                            AQUÍ</a>
+                    </div>
+                </div>
+                <p class="p-txt text-center pt-5"><strong>Postulaciones hasta el 15 de diciembre</strong></p>
+                <p class="p-txt text-center">Para dudas escríbenos a <strong> ecc@miroptics.cl</strong></p>
+            </div><!--cierra botones-->
+
+        </div>
+    </div>
+
+    <!--bloque3 (acordeon)-->
+    <div class="container-fluid bg-mora p-5">
+
+        <div class="cuadrotitulo text-center mb-5">
+            <h2 class="align-middle align-bottom">Temario</h2>
+        </div>
+
+        <div class="accordion p-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button collapsed txtnav-black p-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Introducción a Mecánica Cuántica
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body "><!--SOLO COPIAR LOS ACORDION-BODY-->
+                        <div class="card  mb-3" style="max-width: 100%;">
+                            <div class="card-body text-dark">
+                                <h5 class="">1. Bits cuánticos.</h5>
+                                <h5 class="">2. Esfera de Bloch </h5>
+                                <h5 class="">3. Multiples qubits </h5>
+                                <h5 class="">4. Puertas de 1 qubit </h5>
+                                <h5 class="">5. Puertas de multiples qubits </h5>
+                                <h5 class="">6. Mediciones </h5>
+                                <h5 class="">7. Circuitos cuánticos</h5>
+                                <h5 class="">8. Teleportación cuántica </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--termina 1-->
+        <div class="accordion p-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed txtnav-black p-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Introducción a algoritmos cuánticos
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body "><!--SOLO COPIAR LOS ACORDION-BODY-->
+                        <div class="card  mb-3" style="max-width: 100%;">
+                            <div class="card-body text-dark">
+                                <h5 class="">1. Bits cuánticos.</h5>
+                                <h5 class="">2. Esfera de Bloch </h5>
+                                <h5 class="">3. Multiples qubits </h5>
+                                <h5 class="">4. Puertas de 1 qubit </h5>
+                                <h5 class="">5. Puertas de multiples qubits </h5>
+                                <h5 class="">6. Mediciones </h5>
+                                <h5 class="">7. Circuitos cuánticos</h5>
+                                <h5 class="">8. Teleportación cuántica </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--termina 2-->
+        <div class="accordion p-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed txtnav-black p-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Algoritmos cuánticos variacionales
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body "><!--SOLO COPIAR LOS ACORDION-BODY-->
+                        <div class="card  mb-3" style="max-width: 100%;">
+                            <div class="card-body text-dark">
+                                <h5 class="">1. Bits cuánticos.</h5>
+                                <h5 class="">2. Esfera de Bloch </h5>
+                                <h5 class="">3. Multiples qubits </h5>
+                                <h5 class="">4. Puertas de 1 qubit </h5>
+                                <h5 class="">5. Puertas de multiples qubits </h5>
+                                <h5 class="">6. Mediciones </h5>
+                                <h5 class="">7. Circuitos cuánticos</h5>
+                                <h5 class="">8. Teleportación cuántica </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--termina 3-->
+
+        <div class="accordion p-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed txtnav-black p-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        Máquinas cuánticas de soporte vectorial
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body "><!--SOLO COPIAR LOS ACORDION-BODY-->
+                        <div class="card  mb-3" style="max-width: 100%;">
+                            <div class="card-body text-dark">
+                                <h5 class="">1. Bits cuánticos.</h5>
+                                <h5 class="">2. Esfera de Bloch </h5>
+                                <h5 class="">3. Multiples qubits </h5>
+                                <h5 class="">4. Puertas de 1 qubit </h5>
+                                <h5 class="">5. Puertas de multiples qubits </h5>
+                                <h5 class="">6. Mediciones </h5>
+                                <h5 class="">7. Circuitos cuánticos</h5>
+                                <h5 class="">8. Teleportación cuántica </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--termina 4-->
+
+        <div class="accordion p-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed txtnav-black p-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        Hardware para tecnologías cuánticas
+
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body "><!--SOLO COPIAR LOS ACORDION-BODY-->
+                        <div class="card  mb-3" style="max-width: 100%;">
+                            <div class="card-body text-dark">
+                                <h5 class="">1. Bits cuánticos.</h5>
+                                <h5 class="">2. Esfera de Bloch </h5>
+                                <h5 class="">3. Multiples qubits </h5>
+                                <h5 class="">4. Puertas de 1 qubit </h5>
+                                <h5 class="">5. Puertas de multiples qubits </h5>
+                                <h5 class="">6. Mediciones </h5>
+                                <h5 class="">7. Circuitos cuánticos</h5>
+                                <h5 class="">8. Teleportación cuántica </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--termina 4-->
+    </div>
+
+    <!--bloque 4-->
+
+    <div class="container-fluid bg-grey p-5 ">
+        <div class="mt-5 cuadrotitulo text-center mb-5">
+            <h2 class="align-middle align-bottom">Instructores</h2>
+        </div>
+
+        <!--Guillermo-->
+        <div class="container p-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4 text-center"> <img src="assets/img/guillermo.png" alt="del 8 al 12 de enero">
+                    </div>
+                    <div class="col-md-8 pt-3">
+                        <p class="tit-instruct">Guillermo Alonso-Linaje</p>
+                        <p class="txt-instruct">Matemático e informático de la Universidad de Valladolid, se especializa
+                            en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu, focalizado en el
+                            campo de Quantum Machine Learning. Además, a nivel personal lleva un proyecto de divulgación
+                            de Computación Cuántica en Youtube (Ket.G)</p>
+
+                        <a href="#" target="_blank"><img src="assets/img/in.png" alt="Linkedin"></a>
+                        <a href="#" target="_blank"><img src="assets/img/yt.png" alt="Youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--bloque 5-->
+    <div class="container-fluid bg-mora p-5 ">
+        <div class="cuadrotitulo text-center mt-5 mb-5">
+            <h2 class="align-middle align-bottom ">Charlas</h2>
+        </div>
+
+        <div class="row">
+            <!--guillermo-->
+            <div class="col-sm-4 p-5">
+                <div class="text-center" ><img src="assets/img/guillermo.png" alt=""></div>
+                <div class="pt-3">
+                    <p class="tit-instruct-light">Guillermo Alonso-Linaje</p>
+                </div>
+                <div>
+                    <p class="txt-instruct-light">Matemático e informático de la Universidad de Valladolid, se
+                        especializa
+                        en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu, focalizado en el
+                        campo de Quantum Machine Learning. Además, a nivel personal lleva un proyecto de divulgación
+                        de Computación Cuántica en Youtube (Ket.G)</p>
+                </div>
+
+                <a href="#" target="_blank"><img src="assets/img/in-ylw.png" alt="Linkedin"></a>
+                <a href="#" target="_blank"><img src="assets/img/yt-ylw.png" alt="Youtube"></a>
+            </div>
+
+            <!--2do-->
+            <div class="col-sm-4 p-5">
+                <div class="text-center"><img src="assets/img/guillermo.png" alt=""></div>
+                <div class="pt-3">
+                    <p class="tit-instruct-light">Guillermo Alonso-Linaje</p>
+                </div>
+                <div>
+                    <p class="txt-instruct-light">Matemático e informático de la Universidad de Valladolid, se
+                        especializa
+                        en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu, focalizado en el
+                        campo de Quantum Machine Learning. Además, a nivel personal lleva un proyecto de divulgación
+                        de Computación Cuántica en Youtube (Ket.G)</p>
+                </div>
+
+                <a href="#" target="_blank"><img src="assets/img/in-ylw.png" alt="Linkedin"></a>
+                <a href="#" target="_blank"><img src="assets/img/yt-ylw.png" alt="Youtube"></a>
+            </div>
+
+            <!--3ro-->
+            <div class="col-sm-4 p-5">
+                <div class="text-center"><img src="assets/img/guillermo.png" alt=""></div>
+                <div class="pt-3">
+                    <p class="tit-instruct-light">Guillermo Alonso-Linaje</p>
+                </div>
+                <div>
+                    <p class="txt-instruct-light">Matemático e informático de la Universidad de Valladolid, se
+                        especializa
+                        en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu, focalizado en el
+                        campo de Quantum Machine Learning. Además, a nivel personal lleva un proyecto de divulgación
+                        de Computación Cuántica en Youtube (Ket.G)</p>
+                </div>
+
+                <a href="#" target="_blank"><img src="assets/img/in-ylw.png" alt="Linkedin"></a>
+                <a href="#" target="_blank"><img src="assets/img/yt-ylw.png" alt="Youtube"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--bloque 6-->
+
+
+
+    <!--Footer-->
+    <footer class="footer-fluid footer-bg">
+
+        <div class="container-fluid cuadrofooter">
+            <p class="p-txt text-center p-5">Para dudas escríbenos a <strong> ecc@miroptics.cl</strong></p>
+            
+        </div>
+
+        <!--LOGOS UNIVERSIDADES -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.miroptics.cl/" target="_blank"> <img src="assets/img/logo-miro-blanco.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-3">
+                    <p class="textofooter">Financian:</p>
+                    <a href="https://www.iniciativamilenio.cl/"> <img src="assets/img/logo-financia.png" alt=""></a>
+                </div>
+                <div class="col-md text-center pt-3">
+                    <p class="textofooter">Albergan:</p>
+                    <a href="https://www.udec.cl/pexterno/" target="_blank"> <img
+                            src="assets/img/logo-universidad-concepcion.png" alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uchile.cl/" target="_blank"> <img src="assets/img/logo-universidad-chile.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uandes.cl/" target="_blank"> <img src="assets/img/logo-universidad-andes.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uc.cl/" target="_blank"> <img src="assets/img/logo-universidad-catolica.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://usach.cl/" target="_blank"> <img src="assets/img/logo-universidad-santiago.png"
+                            alt=""></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="border-light">
+
+        <!--REDES SOCIALES MIRO -->
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-md text-center pt-3">
+                    <a href="https://twitter.com/miroptics" target="_blank"> <img src="assets/img/twitter-miro.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-3">
+                    <a href="https://www.instagram.com/miroptics/" target="_blank"> <img
+                            src="assets/img/instagram-miro.png" alt=""></a>
+                </div>
+                <div class="col-md text-center pt-3">
+                    <a href="https://web.facebook.com/institutomileniomiro/?_rdc=1&_rdr" target="_blank"> <img
+                            src="assets/img/facebook-miro.png" alt=""></a>
+                </div>
+                <div class="col-md text-center pt-3">
+                    <a href="https://web.facebook.com/institutomileniomiro/?_rdc=1&_rdr" target="_blank"> <img
+                            src="assets/img/youtube-miro.png" alt=""></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <br>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
